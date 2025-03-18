@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+				
+					<title>Portfolio</title>
+					<link rel="stylesheet" href="index.css"
+</head>
+<body>
+					<nav class="header">
+										<h1>Portfolio</h1>
+										<ul>
+															<li><a href="#home">Home</a></li>
+															<li><a href="#skill">Skill</a></li>
+															<li><a href="#education">Education</a></li>
+															<li><a href="#resume">Resume</a></li>
+										</ul>
+					</nav>
+					<section id="home">
+					<div class="main">
+										<img class="me"src="myimage.jpg" alt="image">
+										<h2>Hi I'm Ahamedraja</h2>
+										<h4>Developer</h4>
+										<p>I'm a <b>B.Sc Student in computer science</b> in Government arts and science college avinashi in Second year.</p>
+					</div>
+					</section>
+					<section id="skill">
+					<div class="skill">
+										<h1>Skills</h1>
+					</div>
+					<div class="sks1">
+										<h3>Programing Languages</h3>
+										<ul class="lang">
+															<li>Java</li>
+															<li>C</li>
+															<li>C++</li>
+															<li>Python</li>
+															<li>Html</li>
+															<li>Css</li>
+															<li>Linux</li>
+										</ul>
+					</div>
+					<div class="sks2">
+										<h3>Technologies</h3>
+										<ul class="lang2">
+															<li>Git</li>
+															<li>Github</li>
+										</ul>
+					</div>
+					</section>
+					<section id="education">
+					<div class="education">
+										<h1>Education</h1>
+					</div>
+					<section class="edu">
+					<div class="sslc">
+										<h3>SSLC</h3>
+										<h5>Government High School <br>Batch-2019</h5>
+										<ul>
+															<li>Subject Studied:<br>Science,Maths,English,Social studies</li>
+															<li>scored 82%</li>
+										</ul>
+					</div>
+			  		<div class="class">
+			  							<h3>HSC</h3>
+										<h5>Government High School <br>Batch-2021</h5>
+										<ul>
+															<li>Subject Studied:<br>Physics,Chemistry,Maths,English</li>
+															<li>scored 85%</li>
+										</ul>
+			  		</div>
+										<div class="college">
+															<h3>COLLEGE</h3>
+																<h5>Government Arts and Science College-Avinashi<br>Batch 2023-26</h5>
+										<ul>
+															<li>Studied with core subjects of programming, data structures, algorithms, DBMS, operating systems, computer networks, AI, cybersecurity, and software development. Skilled in Python, Java, and web technologies, with a passion for innovation.</li>
+															<li>Scored an agregated on 8.30 CGPA till now.</li>
+										</ul>
+										</div>
+					</section>
+					</section>
+					<section id="resume">
+					<div class="resume">
+										<h1>Resume</h1>
+					</div>
+					<section class="res">
+										<div class="back">
+															<p>I have great knowledge in HTML, CSS and JAVA, self-motivated, independent and team worker, problem solver through research or else I'll get some suggestions from my senior levels or mentors and committed to company growth and as well as I can improve my skills.</p>
+										</div>
+										<div class="download">
+										</div>
+										<a href="resume.pdf" class="cv">Download CV</a>
+					</section>
+					</section>
+					    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
